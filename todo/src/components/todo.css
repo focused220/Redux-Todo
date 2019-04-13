@@ -1,0 +1,11 @@
+.todo-list{
+    padding: 2%;
+}
+
+.todo-item{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+}
