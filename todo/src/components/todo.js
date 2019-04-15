@@ -3,11 +3,16 @@ import {addToDo, removeToDo} from '../actions/action'
 //import ReactDOM from 'react-dom';
 import {connect} from 'react-redux';
 import './todo.css'
+import ls from 'local-storage';
 
 class Todo extends React.Component{
     state = {
         todo:'',
         completed: false
+    }
+
+    componentDidMount(){
+        todos: ls.get('')
     }
 
     handleChanges = e =>{

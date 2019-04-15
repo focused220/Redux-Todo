@@ -1,4 +1,5 @@
 import {ADD_ITEM, REMOVE_ITEM} from '../actions/action';
+import ls from 'local-storage';
 
 const initialState = {
     todoList: []
@@ -13,6 +14,7 @@ function reducer(state = initialState, action){
         }
         return{            
             todoList:[...state.todoList, newItem] 
+            
         } 
         case REMOVE_ITEM:
         let item = action.payload;
