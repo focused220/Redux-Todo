@@ -24,8 +24,25 @@
     justify-content: space-around;
 }
 
+.add-todo input{
+    border-radius: 0;
+    border: 1px solid lightgrey;
+    background-color: transparent;
+    color: lightgrey;
+}
+
 .add-todo button{
-    padding: 0 5%;
+    padding: 1% 5%;
+    cursor: pointer;
+    border-radius: 0;
+    color: lightgrey;
+    background-color: transparent;
+    border: 1px solid lightgrey;
+}
+
+.add-todo button:hover{
+    background-color: lightgrey;
+    color: white;
 }
 
 .todo-item{
@@ -36,4 +53,19 @@
     align-items: center;
     border-bottom: 1px solid lightgrey;
     padding: 2%;
+    color: lightgrey;
+}
+
+.todo-item input{
+    padding: 1% 5%;
+    cursor: pointer;
+    border-radius: 0;
+    color: lightgrey;
+    background-color: transparent;
+    border: 1px solid lightgrey;
+}
+
+.todo-item input:hover{
+    background-color: lightgrey;
+    color: white;
 }
