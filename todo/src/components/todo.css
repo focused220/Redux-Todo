@@ -1,5 +1,31 @@
+
+
+
 .todo-list{
     padding: 2%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header h1{
+    color: lightgrey;
+    border-bottom: 1px solid lightgrey;
+    padding: 2%;
+}
+
+.add-todo form{    
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-todo button{
+    padding: 0 5%;
 }
 
 .todo-item{
@@ -8,4 +34,6 @@
     width: 50%;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 2%;
 }
